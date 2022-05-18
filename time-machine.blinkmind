@@ -1,0 +1,173 @@
+{
+  "rootTopicKey": "c0c861c8-db79-4cc2-a0b5-82b70c2bfa4d",
+  "editorRootTopicKey": "c0c861c8-db79-4cc2-a0b5-82b70c2bfa4d",
+  "focusKey": null,
+  "extData": {
+    "TOPIC_REFERENCE": {
+      "reference": {}
+    }
+  },
+  "topics": [
+    {
+      "key": "c0c861c8-db79-4cc2-a0b5-82b70c2bfa4d",
+      "parentKey": null,
+      "subKeys": [
+        "3627dfd7-d204-492c-a301-fd1cc7dabd6a",
+        "778b260b-aab1-493f-bacb-6f297bacba61",
+        "cba8adda-b881-4828-bfb9-3ef04f9eae17"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "TimeMachine"
+        }
+      ]
+    },
+    {
+      "key": "3627dfd7-d204-492c-a301-fd1cc7dabd6a",
+      "parentKey": "c0c861c8-db79-4cc2-a0b5-82b70c2bfa4d",
+      "subKeys": [
+        "7d163761-8649-4e24-ae1d-ecc161457cba",
+        "b73ac812-2515-4afe-8e1a-473c3896e562"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Server"
+        }
+      ]
+    },
+    {
+      "key": "778b260b-aab1-493f-bacb-6f297bacba61",
+      "parentKey": "c0c861c8-db79-4cc2-a0b5-82b70c2bfa4d",
+      "subKeys": [
+        "5379b8cd-e6d8-42a3-b315-af815dadc3a5"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Client "
+        }
+      ]
+    },
+    {
+      "key": "7d163761-8649-4e24-ae1d-ecc161457cba",
+      "parentKey": "3627dfd7-d204-492c-a301-fd1cc7dabd6a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "# Daemon\n\n- Implement a RESTful api\n- Get backup world saving data(using tencent nfs api)\n- Start new instance, and mount those data corrently"
+        }
+      ]
+    },
+    {
+      "key": "b73ac812-2515-4afe-8e1a-473c3896e562",
+      "parentKey": "3627dfd7-d204-492c-a301-fd1cc7dabd6a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "# in docker-compose\n\n- Run a small minecraft inside\n- Timer, a countdown auto recycle\n- Teleport player back to \"reality\"\n- Send back the inventory(maybe some)"
+        }
+      ]
+    },
+    {
+      "key": "5379b8cd-e6d8-42a3-b315-af815dadc3a5",
+      "parentKey": "778b260b-aab1-493f-bacb-6f297bacba61",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "# Plugin\n\n## Handler\n- Start new instance\n- When it's ready teleport player to that instance \n- Get inventory back\n\n## Daemon\n\nBackup system to COS, every hour?"
+        }
+      ]
+    },
+    {
+      "key": "cba8adda-b881-4828-bfb9-3ef04f9eae17",
+      "parentKey": "c0c861c8-db79-4cc2-a0b5-82b70c2bfa4d",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "# Config\n\n## General\n- timeout\n- inventory\n\n## Server\n- inner lan address\n\n## Client\n- inner lan address"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "readOnly": false,
+    "allowUndo": true,
+    "layoutDir": 0,
+    "theme": {
+      "name": "default",
+      "randomColor": true,
+      "background": "rgb(57,60,65)",
+      "highlightColor": "#50C9CE",
+      "marginH": 60,
+      "marginV": 20,
+      "contentStyle": {
+        "lineHeight": "1.5"
+      },
+      "linkStyle": {
+        "lineRadius": 5,
+        "lineType": "curve",
+        "lineWidth": "3px"
+      },
+      "rootTopic": {
+        "contentStyle": {
+          "fontSize": "34px",
+          "borderRadius": "35px",
+          "padding": "16px 18px 16px 18px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px",
+          "lineColor": "rgb(113, 203, 45)"
+        }
+      },
+      "primaryTopic": {
+        "contentStyle": {
+          "borderWidth": "1px",
+          "borderStyle": "solid",
+          "borderRadius": "20px",
+          "fontSize": "17px",
+          "padding": "10px 15px 10px 15px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px",
+          "lineColor": "rgb(113, 203, 45)"
+        }
+      },
+      "normalTopic": {
+        "contentStyle": {
+          "border": "1px solid #e8eaec",
+          "borderRadius": "20px",
+          "fontSize": "17px",
+          "padding": "4px 10px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px",
+          "lineColor": "white"
+        }
+      }
+    }
+  },
+  "formatVersion": null
+}

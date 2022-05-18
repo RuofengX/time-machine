@@ -1,0 +1,6 @@
+[submodule "Server/docker-compose/meta-core"]
+	path = Server/docker-compose/meta-core
+	url = https://github.com/RuofengX/Meta-Core
+[submodule "Client/timemachine"]
+	path = Client/timemachine
+	url = https://github.com/RuofengX/timemachine
