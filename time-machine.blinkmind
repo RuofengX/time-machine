@@ -1,7 +1,7 @@
 {
   "rootTopicKey": "c0c861c8-db79-4cc2-a0b5-82b70c2bfa4d",
   "editorRootTopicKey": "c0c861c8-db79-4cc2-a0b5-82b70c2bfa4d",
-  "focusKey": null,
+  "focusKey": "7d163761-8649-4e24-ae1d-ecc161457cba",
   "extData": {
     "TOPIC_REFERENCE": {
       "reference": {}
@@ -37,7 +37,7 @@
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "Server"
+          "data": "Server(meta-core)"
         }
       ]
     },
@@ -91,7 +91,7 @@
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "# Plugin\n\n## Handler\n- Start new instance\n- When it's ready teleport player to that instance \n- Get inventory back\n\n## Daemon\n\nBackup system to COS, every hour?"
+          "data": "# Plugin timemachine\n\n## Handler\n- Start new instance\n- When it's ready teleport player to that instance \n\n## API\n- transport inventory between servers\n\n## Daemon\n\nBackup system to COS, every hour?"
         }
       ]
     },
@@ -169,5 +169,5 @@
       }
     }
   },
-  "formatVersion": null
+  "formatVersion": "0.0"
 }
